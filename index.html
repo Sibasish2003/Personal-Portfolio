@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <title>Sibasish Portfolio</title>
+         <link rel="stylesheet" href="style.css" id="theme" />
+         <link rel="icon" type="icon" href=""/>
+         <link rel="preconnect" href="https://fonts.googleapis.com"/>
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+         <link href="https://fonts.google.com/specimen/Poppins?preview.text=Helo%20dear&preview.text_type=custom" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav class="navbar">
+                    <h1 id="logo">PORTFOLIO.</h1>
+                    <div class="desktopMenu" id="menu">
+                     <ul id="sidemenu">
+                        <li><a class="desktopMenuListItem"  href="#Home">Home</a></li>
+                        <li><a class="desktopMenuListItem"  href="#About">About</a></li>
+                        <li><a class="desktopMenuListItem"  href="#Projects">Projects</a></li>
+                        <li><a class="desktopMenuListItem"  href="#contact">Contact</a></li>
+                        <div class="container-exit" onclick="closemenu()">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                          </div>
+                     </ul>
+                     <div class="container-menu" onclick="openmenu()">
+                        <div class="bar3"></div>
+                        <div class="bar4"></div>
+                        <div class="bar5"></div>
+                      </div>
+                   </div>
+                </nav>
+                <div class="header-text">
+                    <section id="Home">
+                        <div class="introduction">
+                        <p class="hello">Hello,</p>
+                        <h1>I'm <span>Sibasish</span><br>Website Designer</h1>
+                        <p class="para">I am skilled and passionate web designer with experience <br>in creating visually appealing and user-friendly websites.</p>
+                    </div>
+                    <img src="assets/pic.png" id="image"/>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <section id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="assets/Rishi.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>I am a website designer & front-end developer.  I can provide clean and pixel perfect design. I also make the website more and more interactive with web animation. I am passionate about building excellent software that improves the lives of those around me. I work with HTML,CSS & JavaScript.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" >
+                            <ul>
+                                <li><span>Website Design</span><br>Designing web app interface</li>
+                                <li><span>Front-end Development</span><br>Web app Development</li>
+                                <li><span>Python Development</span><br>Designing and deploying web application</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023</span><br>Internship at Oasis Infobyte</li>
+                                <li><span>2022</span><br>IOT Internship at Altatune Technology (Project team leader)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-current</span><br>B.Tech in CSE from DRIEMS.<br>CGPA:9.18</li>
+                                <li><span>2018-2020</span><br>Intermediate from Choudwar College,Choudwar.<br>Percentage:73%</li>
+                                <li><span>2018</span><br>Matriculation from SSVM,Choudwar.<br>Percentage:80%</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <div class="container">
+                    <div class="project">
+                        <h1 class="sub-title">My Work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <a href="https://abdulkalamtributepage.netlify.app/"><img src="assets/tribute1.png">
+                                <div class="layer">
+                                    <h3>Tribute Page</h3>
+                                    <p>A Tribute Page is a dedicated page celebrating the life and memory of your loved one. It is a permanent memorial where, you, family and friends can remember your loved one and share many memories and photos to celebrate their life.</p>   
+                                </div></a>
+                            </div>
+                            <div class="work">
+                                <a href="https://sibasishrout-calculator.netlify.app/"><img src="assets/calculator1.png">
+                                <div class="layer">
+                                    <h3>Simple Calculator</h3>
+                                    <p>The most basic calculator, which can perform basic arithmetic such as addition, subtraction, multiplication and division.</p>
+                                </div></a>
+                            </div>
+                            <div class="work">
+                                <a href="https://panda-todoapp.netlify.app/"><img src="assets/todo1.png">
+                                <div class="layer">
+                                    <h3>Todo App</h3>
+                                    <p>ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom.</p>
+                                </div></a>
+                            </div>
+                        </div> 
+                          <a href="#" class="button">See More</a>    
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="contact_me">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1>Contact Me</h1>
+                            <p><img src="assets/send.png">sibasishrout03@gmail.com</p>
+                            <p><img src="assets/phone.png">+91 9090898891</p>
+                            <div class="social-icons">
+                                <a href="https://instagram.com/s_i_b_a_s_h_i?utm_source=qr&igshid=OGIxMTE0OTdkZA=="><img src="assets/insta.png"></a>
+                                <a href="https://www.linkedin.com/in/sibasish-rout-a47906216"><img src="assets/linkedin.png"></a>
+                                <a href="https://twitter.com/SibasishRout13?t=LgDq3GvyWaWzhzm7KzA7oA&s=09"><img src="assets/twitter.png"></a>
+                                <a href="https://github.com/Sibasish2003"><img src="assets/git.png"></i></a>
+                                
+                            </div>
+                            <a href="assets/resume.pdf" download class="button btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn3">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="copyright">Developed By Sibasish Rout </div>
+        </section>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links")
+            var tabcontents=document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                    
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+       
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbynQDf1i7L1iK2pIZKRkB5KRZDPtom5CePQuKU_e0ehkddAg4UVFR7660_Soca_MEwR/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
